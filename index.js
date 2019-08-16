@@ -3,7 +3,7 @@
  */
 
 import {AppRegistry} from 'react-native';
-import Todos from './Todos';
+import Auth from './Auth';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => Todos);
+AppRegistry.registerComponent(appName, () => Auth);

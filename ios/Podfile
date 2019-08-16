@@ -31,6 +31,7 @@ target 'rnFirebaseDemo' do
   # Required by RNFirebase
   pod 'Firebase/Core', '~> 6.3.0'
   pod 'Firebase/Firestore', '~> 6.3.0'
+  pod 'Firebase/Auth'
 
   pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
 
